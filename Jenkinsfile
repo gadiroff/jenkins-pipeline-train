@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                sh 'echo Hello world!' 
+                echo 'Webhook was configured successfully! Yahooooo :))))'
             }
         }
     }
