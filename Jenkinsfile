@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Stage 2') {
             steps {
-                echo 'My current branch in git is $BRANCH_NAME'
+                sh 'My current branch in git is $BRANCH_NAME'
             }
         }
     }
